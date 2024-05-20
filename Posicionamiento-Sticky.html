@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Move</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100%;
+            position: relative;
+        }
+
+        section{
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-size: cover !important;
+            background-position: center center !important;
+
+        }
+
+        section:nth-child(1){
+            background: url(img-byron/atardecer.jpg);
+        }
+
+        section:nth-child(2){
+            background: url(img-byron/daynerys.jpg);
+        }
+
+        section:nth-child(3){
+            background: url(img-byron/dragon.jpg);
+        }
+
+        section:nth-child(4){
+            background: url(img-byron/morgana.jpg);
+        }
+
+        section:nth-child(5){
+            background: url(img-byron/pantalla2.jpg);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </div>
+</body>
+</html>
